@@ -1,4 +1,4 @@
-# Solution Explanation — Reconstruction of Cloud-Contaminated Multispectral Environmental Observations
+# Reconstruction of Cloud-Contaminated Multispectral Environmental Observations
 
 ## Scientific Context
 
