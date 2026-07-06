@@ -1,0 +1,6 @@
+{
+  "cloud_threshold": 80,
+  "max_temporal_reconstruction_gap_days": 21,
+  "interpolation_method": "linear",
+  "uncertainty_threshold": 0.25
+}

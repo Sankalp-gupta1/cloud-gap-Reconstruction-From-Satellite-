@@ -1,0 +1,13 @@
+region_id,land_cover_type,elevation,climate_zone
+R001,forest,521,semi_arid
+R002,cropland,274,humid_subtropical
+R003,grassland,337,tropical
+R004,wetland,90,humid_subtropical
+R005,mixed_forest,590,humid_subtropical
+R006,agriculture,479,temperate
+R007,shrubland,82,humid_subtropical
+R008,river_basin,343,semi_arid
+R009,plantation,551,temperate
+R010,forest_edge,295,temperate
+R011,cropland_extension,247,humid_subtropical
+R012,wetland_buffer,332,temperate

@@ -1,0 +1,35 @@
+schema_version = "1.1"
+
+[task]
+name = "snorkel/cloud-contaminated-spectral-reconstruction"
+
+[metadata]
+author_name = "anonymous"
+author_email = "anonymous"
+domain = "Environmental Engineering"
+subdomain = "Remote Sensing"
+workflow = "Data science / ML"
+outcome_type = "deterministic"
+num_of_steps = 36
+difficulty = "advanced_plus"
+task_types = ["Data reconstruction", "Signal reconstruction", "Uncertainty estimation", "Quality assessment"]
+skills = ["Reasoning", "Processing Time-series Data", "File Interaction", "Tool-use", "Long-horizon"]
+tool_types = ["Scientific Computing Tools"]
+difficulty_explanation = "Agents must combine cloud-quality filtering, temporal gap handling, land-cover-aware reconstruction, uncertainty scoring, and holdout-region prediction. Errors in cloud screening or gap selection can propagate into reconstructed bands and uncertainty estimates."
+expert_time_estimate_min = 70
+junior_time_estimate_min = 140
+tags = ["remote-sensing", "multispectral-imagery", "cloud-contamination", "spectral-reconstruction", "environmental-monitoring", "uncertainty-estimation"]
+languages = ["python"]
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+allow_internet = false
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
