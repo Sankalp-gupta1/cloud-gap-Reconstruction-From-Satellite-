@@ -1,5 +1,33 @@
 # Cloud-Gap Reconstruction from Satellite Observations
 
+## Live app
+
+**https://cloud-gap-reconstruction.vercel.app/**
+
+The repository now includes a public browser reconstruction lab in `web/`.
+
+The hosted demo lets you:
+- paste multispectral observation CSV data,
+- paste cloud-mask CSV data,
+- change the cloud-probability threshold,
+- remove cloud/shadow-contaminated observations,
+- linearly interpolate missing spectral bands per pixel,
+- inspect reconstructed rows,
+- see a transparent uncertainty score based on the fraction of originally missing bands.
+
+The browser version is deterministic and intentionally mirrors the documented reconstruction workflow. It does not claim calibrated satellite-production accuracy.
+
+### Run the hosted-style demo locally
+
+```bash
+cd web
+python -m http.server 8000
+```
+
+Open `http://localhost:8000`.
+
+---
+
 A deterministic multispectral reconstruction pipeline for cloud-contaminated satellite observations.
 
 ## Live dashboard
