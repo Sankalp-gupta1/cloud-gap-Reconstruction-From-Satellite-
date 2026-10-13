@@ -2,7 +2,7 @@
 
 ## Live app
 
-**https://cloud-gap-reconstruction.vercel.app/**
+**https://cloud-gap-reconstruction-sankalp.vercel.app/**
 
 The repository now includes a public browser reconstruction lab in `web/`.
 
@@ -32,7 +32,6 @@ A deterministic multispectral reconstruction pipeline for cloud-contaminated sat
 
 ## Live dashboard
 
-**https://cloud-gap-reconstruction-sankalp.vercel.app/**
 
 The live dashboard reads the real CSV files stored in this repository and lets you inspect the reconstruction pipeline pixel by pixel.
 
